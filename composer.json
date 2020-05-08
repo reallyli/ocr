@@ -1,0 +1,29 @@
+{
+    "name": "reallyli/ocr",
+    "description": "The Best Image Ocr SDK For BAT.",
+    "keywords": ["ocr", "image", "百度OCR", "腾讯OCR", "阿里云OCR", "腾讯新版OCR"],
+    "homepage": "http://github.com/reallyli/ocr",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reallyli",
+            "email": "zlisreallyli@outlook.com"
+        }
+    ],
+    "require": {
+        "doctrine/cache": "^1.6",
+        "pimple/pimple": "~3.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Godruoyi\\OCR\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
